@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./header";
-import Footer from "./footer";
-import Note from "./note";
+import Header from "./components/header.jsx";
+import Footer from "./components/footer.jsx";
+import Note from "./components/note.jsx";
 import notes from "./notes.js";
 export default function App() {
   return (

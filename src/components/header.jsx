@@ -13,6 +13,7 @@ function Header() {
       font-semibold
       tracking-wider
       shadow-lg
+      mb-4
 "
     >
       <h1>Notebook</h1>
