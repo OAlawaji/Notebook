@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Header from "./components/header.jsx";
-import Footer from "./components/footer.jsx";
-import Note from "./components/note.jsx";
-import notes from "./notes.js";
-import AddNote from "./components/addNote.jsx";
+import Header from "./header.jsx";
+import Footer from "./footer.jsx";
+import Note from "./note.jsx";
+import notes from "../notes.js";
+import AddNote from "./addNote.jsx";
 export default function App() {
 
   const [items, setItems] = useState(notes);
