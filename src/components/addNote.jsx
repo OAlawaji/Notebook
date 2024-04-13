@@ -42,7 +42,7 @@ function AddNote(props) {
             "
       >
       </input>
-        <div className="border-t-2"></div>
+
       <textarea
         value={content}
         onChange={(e) => setContent(e.target.value)}

@@ -34,7 +34,7 @@ export default function App() {
     >
       <Header />
       <main
-        style={{ gridAutoFlow: 'dense' }}
+        // style={{ gridAutoFlow: 'dense' }}
         className="
         h-full overflow-auto
         grid gap-4
@@ -45,7 +45,7 @@ export default function App() {
         xl:grid-cols-5
         2xl:grid-cols-6
         justify-items-center items-start
-        dense-grid
+
       "
       >
         {items.map((note, index) => (
